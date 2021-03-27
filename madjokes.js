@@ -1,3 +1,4 @@
+/* This does work */
 /* Test 1-2-3 */
 /* TEST ABC*/
 /* 
