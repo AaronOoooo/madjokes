@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WorkAround</title>
+  </head>
+  <body>
+        <button id="pnch">Generate Punchline</button>
+        <p id="text"></p>
+  </body>
+  <script>
+      const punchClause1 = ["What goes up", "At the end of the day", "Janice feels", "If I find out", "When there's no money", "If it doesn't stink", "Your mother always says", "When we play games", "Drunks do drink", "When the mouse is at play", "Hanging from the ceiling", "He who stands still"];
+      const punchClause2 = ["must be stinky", "sets throw out with the bath water", "gets shared by coworkers", "burps their way to the top", "wins the clown", "floats to the top"]
+    
+      let punchBtn = document.querySelector('#pnch');
+      let text = document.querySelector('#text')
+
+      const punchLine = () => {
+        let rand1 = Math.floor(Math.random() * punchClause1.length);    
+        let rand2 = Math.floor(Math.random() * punchClause2.length);  
+        return `Punchline: ${punchClause1[rand1]} ${punchClause2[rand2]}.`
+      }   
+
+      punchBtn.addEventListener('click', () => (text.innerHTML) = punchLine());
+</script>
