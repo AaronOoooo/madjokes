@@ -1,3 +1,5 @@
+//Correct branch 03282021
+
 /*
 Git Notes to Christian
 You may want to start over with this project. 
@@ -26,8 +28,6 @@ function joke() {
     return (`Joke: What does the ${adj[rand1]} ${nouns[rand2]} think when it ${phrase[rand3]}?`);
     return ("Joke: " + "What does the " + adj[rand1] + " " + nouns[rand2] + " think when it " + phrase[rand3] + "?");  
   };
-
-
 
 function punchLine() {
     let rand1 = Math.floor(Math.random() * punchClause1.length);    
