@@ -16,15 +16,18 @@ This is a rough guideline to git. I had to do some testing to figure this out. H
   const adj = ["beautiful", "dumb", "professional", "lovely", "idiot", "hard", "soft-spoken", "lingering", "tired", "gross"]; 
   const phrase = ["tells me goodbye", "wakes up", "gives me a flower", "goes to bed", "dies", "sees their mother", "sees their father", "drinks a pint", "hears music", "ties their shoelaces"];
 
+  const punchClause1 = ["What goes up", "He who talks", "Janice's smile'", "The judge", "When there's no money, John", "If it doesn't stink, your mother", "Your mother always", "When we play games, the boss", "A drunks drink and", "The muscles", "Better when the bartender", "He who stands still"];
+  const punchClause2 = ["reeks of guilt", "lands in bath water", "belongs to coworkers", "burps their way to the top", "drives a clown car", "must be a big screen television", "is better known as Mother Hubbard"];
+
 function joke() {   
     let rand1 = Math.floor(Math.random() * nouns.length);   
     let rand2 = Math.floor(Math.random() * adj.length);   
     let rand3 = Math.floor(Math.random() * phrase.length);
-    return ("Joke: " + "What does the " + adj[rand1] + " " + nouns[rand2] + " think when it " + phrase[rand3] + "?");  };
+    return (`Joke: What does the ${adj[rand1]} ${nouns[rand2]} think when it ${phrase[rand3]}?`);
+    return ("Joke: " + "What does the " + adj[rand1] + " " + nouns[rand2] + " think when it " + phrase[rand3] + "?");  
+  };
 
-//Aaron will work on section below to clean up punchlines
-const punchClause1 = ["What goes up", "He who talks", "Janice's smile'", "The judge", "When there's no money, John", "If it doesn't stink, your mother", "Your mother always", "When we play games, the boss", "A drunks drink and", "The muscles", "Better when the bartender", "He who stands still"];
-const punchClause2 = ["reeks of guilt", "lands in bath water", "belongs to coworkers", "burps their way to the top", "drives a clown car", "must be a big screen television", "is better known as Mother Hubbard"]
+
 
 function punchLine() {
     let rand1 = Math.floor(Math.random() * punchClause1.length);    
