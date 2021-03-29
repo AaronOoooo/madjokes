@@ -18,13 +18,13 @@ const joke = () => {
     let rand1 = Math.floor(Math.random() * nouns.length);   
     let rand2 = Math.floor(Math.random() * adj.length);   
     let rand3 = Math.floor(Math.random() * phrase.length);
-    return (`Joke: What does the ${adj[rand1]} ${nouns[rand2]} think when it ${phrase[rand3]}?`);
+    return `What does the ${adj[rand1]} ${nouns[rand2]} think when it ${phrase[rand3]}?`;
   };
 // punchline generator function
 const punchLine = () => {
     let rand1 = Math.floor(Math.random() * punchClause1.length);    
     let rand2 = Math.floor(Math.random() * punchClause2.length);  
-    return `Punchline: ${punchClause1[rand1]} ${punchClause2[rand2]}.`
+    return `${punchClause1[rand1]} ${punchClause2[rand2]}.`
   }; 
 // function punchLine() {
 //   let rand1 = Math.floor(Math.random() * punchClause1.length);    

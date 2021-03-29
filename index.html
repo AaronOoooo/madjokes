@@ -2,12 +2,24 @@
   <head>
     <meta charset="utf-8">
     <title>Joke</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
   </head>
   <body>
-    <button id="joke-button">Joke</button>
-    <p id="joke-text"></p>
-    <button id="punch-button">Generate Punchline</button>
-    <p id="punch-text"></p>
+      <div class="title is-1 has-text-centered">
+        MADJOKES.
+      </div>
+      <div class="card-content">
+        <p class="title is-1" id="joke-text">  
+        <p class="title is-1" id="punch-text">
+        </div>
+      <footer class="card-footer">
+        <p class="card-footer-item">
+            <button class="button is-large is-danger is-focused" id="joke-button">Generate Joke</button>
+        </p>
+        <p class="card-footer-item">
+          <button class="button is-large is-danger is-focused" id="punch-button">Generate Punchline</button>
+        </p>
+      </footer>
   </body>
   <script src="./script.js" type="text/javascript"></script>
 </html>
