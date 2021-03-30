@@ -16,8 +16,8 @@ This is a rough guideline to git. I had to do some testing to figure this out. H
   const adj = ["beautiful", "dumb", "professional", "lovely", "idiot", "hard", "soft-spoken", "lingering", "tired", "gross"]; 
   const phrase = ["tells me goodbye", "wakes up", "gives me a flower", "goes to bed", "dies", "sees their mother", "sees their father", "drinks a pint", "hears music", "ties their shoelaces"];
 
-  const punchClause1 = ["What goes up", "He who talks", "Janice's smile'", "The judge", "When there's no money, John", "If it doesn't stink, your mother", "Your mother always", "When we play games, the boss", "A drunks drink and", "The muscles", "Better when the bartender", "He who stands still"];
-  const punchClause2 = ["reeks of guilt", "lands in bath water", "belongs to coworkers", "burps their way to the top", "drives a clown car", "must be a big screen television", "is better known as Mother Hubbard"];
+  const punchClause1 = ["What goes up", "He who talks", "Janice's smile'", "The judge", "When there's no money, John", "If it doesn't stink, your mother", "Your mother always", "When we play games, the boss", "A drunks drink and", "The muscles", "Better when the bartender", "He who stands still", "It depends on who"];
+  const punchClause2 = ["reeks of guilt", "lands in bath water", "belongs to coworkers", "burps their way to the top", "drives a clown car", "must be a big screen television", "is better known as Mother Hubbard", "needs you", "has money to give me", "has the biggest truck", "finished last, they said","fits the pants", "knows where to hide", "can reassemble the burnt dinner", "who knows", "who can hide in an open field", "plays dead", "can preach at school", "has to eat the biggest bug", "can bug the bugs","cares the least"];""
 
 function joke() {   
     let rand1 = Math.floor(Math.random() * nouns.length);   
