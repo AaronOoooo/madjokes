@@ -1,5 +1,3 @@
-//Correct branch 03282021
-
 /*
 Git Notes to Christian
 You may want to start over with this project. 
