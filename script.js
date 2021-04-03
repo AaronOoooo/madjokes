@@ -1,6 +1,6 @@
 // dom element query selectors
-let jokeBtn = document.querySelector('#joke-button');
-let punchBtn = document.querySelector('#punch-button');
+let jokeBtn = document.querySelector('#jokeBtn');
+let punchBtn = document.querySelector('#punchBtn');
 let punchText = document.querySelector('#punch-text');
 let jokeText = document.querySelector('#joke-text');
 // event listeners
